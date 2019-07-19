@@ -6,11 +6,10 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  /*background: #333;*/
+  background: radial-gradient(rgb(251, 152, 4), rgb(70, 46, 12));
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  font-size: 1.5em;
 }
 
 .wrapper {
@@ -21,12 +20,12 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: rgb(247, 245, 196);
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: rgb(247, 245, 196);
 }
 
 h1 {
@@ -53,6 +52,7 @@ img {
 
 p {
   font-size: 1em;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 a {
